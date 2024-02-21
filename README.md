@@ -2,20 +2,20 @@
 
 ## Prerequisites to run Nextflow code
 
-Install Anaconda
-Create a conda environment
-Install Nextflow in conda environment
-Clone https://github.com/philge/wes-relation.git
-Change directory to Nextflow code folder (./wes-relation), prepare samplesheet.csv
+Install Anaconda  
+Create a conda environment  
+Install Nextflow in conda environment  
+Clone https://github.com/philge/wes-relation.git  
+Change directory to Nextflow code folder (./wes-relation), prepare samplesheet.csv  
 
-Run command: 
+Run command:  
 ```console
 nextflow run main.nf --input samplesheet.csv -with-report run_report.html --outdir results --fasta /*/genome.fa -resume -profile conda
 ```
 
 ## Credits
 
-Code was originally written by Philge Philip.
+Code was originally written by Philge Philip.  
 
 ## Contributions and Support
 
